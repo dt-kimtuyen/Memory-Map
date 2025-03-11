@@ -1,0 +1,54 @@
+name: doanthikimtuyenn_sunflower
+description: "A new Flutter project."
+
+# Chặn dự án xuất bản lên pub.dev
+publish_to: 'none'
+
+# Phiên bản ứng dụng
+version: 1.0.0+1
+
+# Cấu hình môi trường SDK
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+
+# Phụ thuộc của dự án
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  youtube_player_flutter: ^9.1.1
+  http: ^1.2.2
+  jwt_decoder: ^2.0.1
+  flutter_dotenv: ^5.2.1
+  shared_preferences: ^2.3.4
+  provider: ^6.1.2
+
+# Phụ thuộc dành cho phát triển và kiểm thử
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Cấu hình Flutter-specific
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/account_tab_logo.jpg
+    - assets/home_tab_logo.jpg
+    - assets/facebook_logo.jpg
+    - assets/flower2.jpg
+    - assets/avartar.jpg
+    - assets/images.jpg
+    - assets/flower1.jpg
+    - assets/flower11.jpg
+    - assets/flower3.jpg
+    - assets/flower4.jpg
+    - assets/flower5.jpg
+    - assets/avataaa.jpg
+    - assets/quynhon.jpg
+    - assets/nhon.jpg
+    - assets/dalat.jpg
+    - assets/da.jpg
+    - assets/logo.jpg
+    - .env
